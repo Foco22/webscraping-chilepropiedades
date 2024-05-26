@@ -4,6 +4,8 @@
 
 Este repositorio es un webscraping del portal ChilePropiedades, el cual contiene información de departamentos y casas en arriendo y venta en Chile. Se puede extraer la información completa de la propiedad, desde el precio hasta la latitud y longitud.
 
+WebScrapping URL: https://chilepropiedades.cl/
+
 ## ¿Qué se requiere?
 
 Para poder ejecutar este repositorio, se necesita tener instalado Docker en el computador.
