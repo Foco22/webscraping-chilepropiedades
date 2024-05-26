@@ -14,19 +14,13 @@ Si no tienes instalado Docker, por favor, descárgalo en el siguiente enlace:
 https://www.docker.com/products/docker-desktop/
 
 
-parser.add_argument('region', type=str, required=True, help='The region to search')
-parser.add_argument('type_searching', type=str, required=True, help='The type of search')
-parser.add_argument('type_house', type=str, required=True, help='The type of house')
-parser.add_argument('min_publish_date', type=str, required=True, help='The minimum publish date')
-parser.add_argument('max_publish_date', type=str, required=True, help='The maximum publish date')
-
 ## ¿Qué contiene el Docker?
 
 El Docker contiene una API con un endpoint /webscrapping, que permite extraer la información de la página web. Este endpoint recibe 5 variables de entrada:
 
 - **region**: Es la región de la cual se quiere extraer la información. Los posibles valores para región son:
-
-''' Region Metropolitana: Santiago
+```bash
+    Region Metropolitana: Santiago
     Región de Arica y Parinacota: Arica
     Región de Tarapacá: i-region-de-tarapaca
     Región de Atacama: iii-region-de-atacama
@@ -38,16 +32,18 @@ El Docker contiene una API con un endpoint /webscrapping, que permite extraer la
     Región de La Araucanía:ix-region-de-la-araucania
     Región de Los Ríos:xiv-region-de-los-rios
     Región de Los Lagos:x-region-de-los-lagos
-'''
+```
 
 - **type_searching**: Esta variable indica el tipo de búsqueda para extraer la información. Los posibles valores son:
-''' Arrendar: arriendo-mensual
+```bash
+    Arrendar: arriendo-mensual
     Comprar: venta
     Arriendo Diario: arriendo-diario
-'''
+```
 
 - **type_house**: Esta variable indica el tipo de propiedad de la consulta. Los posibles valores son:
-''' Bodega: Bodega
+```bash
+    Bodega: Bodega
     Casa: casa
     Departamento: departamento
     Estacionamiento: estacionamiento
@@ -63,7 +59,7 @@ El Docker contiene una API con un endpoint /webscrapping, que permite extraer la
     Terreno Agricola: terreno-agricola
     Terreno Forestal: terreno-forestal
     Terreno Industrial: terreno-industrial
-'''
+```
 
 - **min_publish_date**: Esta variable indica la fecha mínima de publicación de las propiedades. Su formato es YYYY-MM-DD.
 - **max_publish_date**: Esta variable indica la fecha máxima de publicación de las propiedades. Su formato es YYYY-MM-DD.
