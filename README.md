@@ -107,5 +107,5 @@ data = {
 }
 
 response = requests.post(url, json=data)
-print(response.json())
+response_json = response.json()
 ```
