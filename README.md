@@ -4,7 +4,7 @@
 
 Este repositorio es un webscraping del portal ChilePropiedades, el cual contiene información de departamentos y casas en arriendo y venta en Chile. Se puede extraer la información completa de la propiedad, desde el precio hasta la latitud y longitud.
 
-##¿Qué se requiere?
+## ¿Qué se requiere?
 
 Para poder ejecutar este repositorio, se necesita tener instalado Docker en el computador.
 
@@ -20,7 +20,7 @@ parser.add_argument('type_house', type=str, required=True, help='The type of hou
 parser.add_argument('min_publish_date', type=str, required=True, help='The minimum publish date')
 parser.add_argument('max_publish_date', type=str, required=True, help='The maximum publish date')
 
-##¿Qué contiene el Docker?
+## ¿Qué contiene el Docker?
 
 El Docker contiene una API con un endpoint /webscrapping, que permite extraer la información de la página web. Este endpoint recibe 5 variables de entrada:
 
@@ -68,7 +68,7 @@ El Docker contiene una API con un endpoint /webscrapping, que permite extraer la
 - **min_publish_date**: Esta variable indica la fecha mínima de publicación de las propiedades. Su formato es YYYY-MM-DD.
 - **max_publish_date**: Esta variable indica la fecha máxima de publicación de las propiedades. Su formato es YYYY-MM-DD.
 
-##¿Cómo empezar?
+## ¿Cómo empezar?
 
 Para que este proyecto funcione en tu máquina local, sigue estos pasos:
 
@@ -78,7 +78,7 @@ Para que este proyecto funcione en tu máquina local, sigue estos pasos:
 git clone https://github.com/Foco22/X-Academy-Project.git
 ```
 
-###Empezar el Docker
+## Empezar el Docker
 
 Para empezar el Docker, se debe ejecutar:
 
@@ -90,7 +90,7 @@ sudo docker build -t my-flask-app .
 sudo docker run -d -p 8000:8000 my-flask-app
 ```
 
-###¿Cómo ejecutarlo?
+## ¿Cómo ejecutarlo?
 
 Para ejecutar el endpoint, se puede usar la librería requests en Python, usando el siguiente código:
 
