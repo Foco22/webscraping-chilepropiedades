@@ -105,7 +105,6 @@ data = {
     "min_publish_date": "2024-05-23",
     "max_publish_date": "2024-05-24"
 }
-
-response = requests.post(url, json=data)
-response_json = response.json()
+response_body = requests.post(url, json=data)
+response_json = response_body.json()
 ```
