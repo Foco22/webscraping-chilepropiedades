@@ -68,13 +68,13 @@ El Docker contiene una API con un endpoint /webscrapping, que permite extraer la
 
 Para que este proyecto funcione en tu máquina local, sigue estos pasos:
 
-###Clonar el repositorio
+**Clonar el repositorio**
 
 ```bash
 git clone https://github.com/Foco22/X-Academy-Project.git
 ```
 
-## Empezar el Docker
+**Empezar el Docker**
 
 Para empezar el Docker, se debe ejecutar:
 
@@ -86,7 +86,7 @@ sudo docker build -t my-flask-app .
 sudo docker run -d -p 8000:8000 my-flask-app
 ```
 
-## ¿Cómo ejecutarlo?
+**¿Cómo ejecutarlo?**
 
 Para ejecutar el endpoint, se puede usar la librería requests en Python, usando el siguiente código:
 
