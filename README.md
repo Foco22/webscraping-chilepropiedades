@@ -78,7 +78,7 @@ git clone https://github.com/Foco22/X-Academy-Project.git
 
 **Empezar el Docker**
 
-Para empezar el Docker, se debe construir la imagen docker, usando:
+Para empezar el Docker se debe construir la imagen docker usando:
 
 ```bash
 sudo docker build -t my-flask-app .
