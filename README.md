@@ -10,7 +10,6 @@ WebScrapping URL: https://chilepropiedades.cl/
 
 Para poder ejecutar este repositorio, se necesita tener instalado Docker en el computador.
 
-Docker
 Si no tienes instalado Docker, por favor, descárgalo en el siguiente enlace:
 
 https://www.docker.com/products/docker-desktop/
