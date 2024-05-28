@@ -2,7 +2,7 @@
 
 ## General
 
-Este repositorio es un webscraping del portal ChilePropiedades, el cual contiene información de departamentos y casas en arriendo y venta en Chile. Se puede extraer la información completa de la propiedad, desde el precio hasta la latitud y longitud.
+Este repositorio es un webscraping del portal ChilePropiedades, la cual contiene información de departamentos y casas en arriendo y venta en Chile. Se puede extraer la información completa de las propiedades, desde el precio hasta su latitud y longitud.
 
 WebScrapping URL: https://chilepropiedades.cl/
 
@@ -17,9 +17,9 @@ https://www.docker.com/products/docker-desktop/
 
 ## ¿Qué contiene el Docker?
 
-El Docker contiene una API con un endpoint /webscrapping, que permite extraer la información de la página web. Este endpoint recibe 5 variables de entrada:
+El Docker contiene una API con un endpoint en en la ruta "/webscrapping", que permite extraer la información de la página web. Este endpoint recibe 5 variables de entrada:
 
-- **region**: Es la región de la cual se quiere extraer la información. Los posibles valores para región son:
+- **region**: Es la ubicación de la cual se quiere extraer la información. Si se quiere extraer la información por region, sus posibles valores son:
 ```bash
     Region Metropolitana: Santiago
     Región de Arica y Parinacota: Arica
